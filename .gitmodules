@@ -1,0 +1,12 @@
+[submodule "server-side"]
+	path = server-side
+	url = https://github.com/LucasOMS/interface-repartie-server-side.git
+[submodule "table"]
+	path = table
+	url = https://github.com/LucasOMS/interface-repartie-client-side-table.git
+[submodule "tablette"]
+	path = tablette
+	url = https://github.com/LucasOMS/interface-repartie-client-side-tablette.git
+[submodule "vr"]
+	path = vr
+	url = https://github.com/LucasOMS/interface-repartie-client-side-vr.git
