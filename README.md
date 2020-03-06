@@ -101,7 +101,7 @@ npm start
 
 L'interface est disponible à l'adresse `http://localhost:3000`
 
-#### Sur la table hébergé sur un ordinateur
+#### Sur la table hébergée sur un ordinateur
 Afin d'accéder à l'interface hebergée sur un ordinateur depuis la table, il faut utiliser le profil NETWORK_PROFILE.PROD et définir l'adresse du serveur. _(voir Configuration > Définir la connexion au serveur)_
 
 Pour permettre à des connexions distantes d'accéder à l'interface, il faut changer les configs de webpack. Rendez vous dans le fichier `src/webpack.common.js`, remplacez la ligne 42 par `host: 'votreIp'`.
