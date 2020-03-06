@@ -1,7 +1,7 @@
 # Cloner les dépôts
 Le dépôt principal se trouve sur `https://github.com/LucasOMS/interface-repartie` et pointe vers chaque module. Vous pouvez néanmoins cloner chaque module indépendamment :
 
-Projet complet : `git clone https://github.com/LucasOMS/interface-repartie InterfaceRepartieEnqueteStade; cd Serveur`
+Projet complet : `git clone https://github.com/LucasOMS/interface-repartie InterfaceRepartieEnqueteStade; cd InterfaceRepartieEnqueteStade`
 
 Serveur : `git clone https://github.com/LucasOMS/interface-repartie-server-side.git Serveur; cd Serveur`
 
@@ -13,7 +13,7 @@ Tablette : `git clone https://github.com/LucasOMS/interface-repartie-client-side
 
 
 # Déploiement du projet
-Nous considèrerons la racine du dossier `InterfaceRepartieEnqueteStade` comme la base de tous les chemins de fichiers. _(voir cloner projet complet)_
+Nous considèrerons la racine du dossier `InterfaceRepartieEnqueteStade` comme la base de tous les chemins de fichiers. _(voir Cloner les dépôts > Projet complet)_
 
 ```cd InterfaceRepartieEnqueteStade```
 
