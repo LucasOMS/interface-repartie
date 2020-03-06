@@ -24,7 +24,7 @@ Pour déployer le serveur, rendez vous dans le dossier server-side.
 
 ### Dépendances
 
-Afin d'être déployé, le serveur nécessite une version de node installé sur le PC.
+Afin d'être déployé, le serveur nécessite une version de node installée sur le PC.
 
 Installez les dépendances avec la commande ```npm install```
 
@@ -41,7 +41,7 @@ Afin d'accéder au serveur à distance (avec le casque, la table ou la tablette)
 
 ```ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'```
 
-Vous obtenez alors l'adresse locale de chaque carte réseau de votre ordinateur. vous devez utiliser l'adresse de la carte qui vous ocnnecte au réseau _(carte wifi si vous êtes en wifi par exemple)_
+Vous obtenez alors l'adresse locale de chaque carte réseau de votre ordinateur. Vous devez utiliser l'adresse de la carte qui vous connecte au réseau _(carte wifi si vous êtes en wifi par exemple)_
 
 ## Table
 
@@ -54,7 +54,7 @@ Installez les dépendances avec la commande ```npm install```
 #### Sur la table
 Sur la table, il est necessaire de lancer le logiciel TUIOTable
 #### Sur un ordinateur
-Sur ordinateur, vous pouvez interagir avec un simulator, pour cela, il faut lancer TUIOClient qui permet d'activer le pont entre le simulateur et l'interface (via des sockets sur le port 9000).
+Sur ordinateur, vous pouvez interagir avec un simulateur, pour cela, il faut lancer TUIOClient qui permet d'activer le pont entre le simulateur et l'interface (via des sockets sur le port 9000).
 Pour lancer TUIOClient, vous pouvez utiliser le script suivant :
 ```
 git clone https://github.com/AtelierIHMTable/TUIOClient.git TUIOClient
@@ -70,7 +70,7 @@ Vous pouvez ensuite extraire l'archive et lancer TUIOSimulator.jar en double cli
 
 ### Configuration
 #### Définir la connexion au serveur
-Afin que la table se connecte à une adresse distante ou à une adresse locale, rendez vous dnas le fichier ``table/src/utils/constants.js``.
+Afin que la table se connecte à une adresse distante ou à une adresse locale, rendez vous dans le fichier ``table/src/utils/constants.js``.
 
 · Pour un déploiement avec un serveur en local, assurez-vous que le `currentProfile` soit égal à `NETWORK_PROFILES.LOCAL` (ligne 94)
 
@@ -88,7 +88,7 @@ git clone https://github.com/LucasOMS/interface-repartie-client-side-table.git T
 cd TableEnqueteAuStade
 ```
 
-Afin que l'interaction sur la table foncitonne correctement, i lfaut que l'interface soit en plein écran. Avec google Chrome ou Firefox, vous pouvez activer/désactiver le mode plein écran avec la touche F11.
+Afin que l'interaction sur la table foncitonne correctement, il faut que l'interface soit en plein écran. Avec Google Chrome ou Firefox, vous pouvez activer/désactiver le mode plein écran avec la touche F11.
 
 #### Sur la table
 Si le serveur est également hébergé sur la table, vous pouvez utiliser `NETWORK_PROFILE.LOCAL`, sinon il faut changer pour `NETWORK_PROFILE.PROD` et définir l'adresse du serveur. _(voir Configuration > Définir la connexion au serveur)_ 
@@ -102,7 +102,7 @@ npm start
 L'interface est disponible à l'adresse `http://localhost:3000`
 
 #### Sur la table hébergé sur un ordinateur
-Afin d'accéder à l'interface hebergé sur un ordinateur depuis la table, il faut forcément utiliser le profil NETWORK_PROFILE.PROD et définir l'adresse du serveur. _(voir Configuration > Définir la connexion au serveur)_
+Afin d'accéder à l'interface hebergée sur un ordinateur depuis la table, il faut utiliser le profil NETWORK_PROFILE.PROD et définir l'adresse du serveur. _(voir Configuration > Définir la connexion au serveur)_
 
 Pour permettre à des connexions distantes d'accéder à l'interface, il faut changer les configs de webpack. Rendez vous dans le fichier `src/webpack.common.js`, remplacez la ligne 42 par `host: 'votreIp'`.
 
