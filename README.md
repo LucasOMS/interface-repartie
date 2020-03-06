@@ -2,6 +2,7 @@
 Le dépôt principal se trouve sur `https://github.com/LucasOMS/interface-repartie` et pointe vers chaque module. Vous pouvez néanmoins cloner chaque module indépendamment :
 
 Projet complet : `git clone https://github.com/LucasOMS/interface-repartie InterfaceRepartieEnqueteStade; cd Serveur`
+
 Serveur : `git clone https://github.com/LucasOMS/interface-repartie-server-side.git Serveur; cd Serveur`
 
 Table : `git clone https://github.com/LucasOMS/interface-repartie-client-side-table.git Table; cd Table`
