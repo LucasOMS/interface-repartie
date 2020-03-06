@@ -11,6 +11,7 @@ Casque VR : `git clone https://github.com/LucasOMS/interface-repartie-client-sid
 
 Tablette : `git clone https://github.com/LucasOMS/interface-repartie-client-side-tablette.git Tablette; cd Tablette`
 
+Note : les dépots VR et Tablettes sont conséquents, le clonage peut prendre du temps.
 
 # Déploiement du projet
 Nous considèrerons la racine du dossier `InterfaceRepartieEnqueteStade` comme la base de tous les chemins de fichiers. _(voir Cloner les dépôts > Projet complet)_
