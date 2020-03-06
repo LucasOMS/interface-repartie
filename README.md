@@ -131,7 +131,18 @@ Vous aurez besoin de TUIOSimulator pour interagir avec l'interface.
 Afin d'avoir la bonne résolution sur l'interface pour que celle-ci soit utilisable, vous pouvez utiliser les outils de développement (F12) puis utiliser Ctrl + maj + M afin d'activer la vue responsive. La table a une résolution de 1920×1080 que vous pouvez définir dans la barre supérieure de l'interface de développement.
 
 ## Casque VR
-Rendez vous dans le code source de l'interface du casque avec ```cd vr```
+
+- Installer unity version 2018.4
+- Lancer Unity et ouvrir le projet 
+- Connecter le casque au PC
+- Build le projet avec CTRL+B 
+ 
+Dans le cas où le build ne fonctionne pas, il existe le build généré test.apk qu'il faut  drag & drop dans le casque via le gestionnaire de fichier. 
+
+- Installer l'application dans le casque via les fichiers et lancer l'installation. 
+- Lancer l'application. 
+
+Les fichiers créés sont dans le fichier assets
 
 ## Tablette
 Rendez vous dans le code source de l'interface de la tablette avec ```cd tablette```
